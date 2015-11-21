@@ -35,8 +35,11 @@ int melody[] = {
 int noteDurations[] = {
   4, 8, 8, 4,4,4,4,4 };
 
+int tonePin = 9;
+
+
 // this constant won't change:
-const int  buttonPin = 2;    // the pin that the pushbutton is attached to
+const int  buttonPin = 8;    // the pin that the pushbutton is attached to
 const int ledPin = 13;       // the pin that the LED is attached to
 
 // Variables will change:
@@ -93,14 +96,14 @@ void loop() {
     // divided by the note type.
     //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
     int noteDuration = 1000/noteDurations[thisNote];
-    tone(8, melody[thisNote],noteDuration);
+    tone(tonePin, melody[thisNote],noteDuration);
 
     // to distinguish the notes, set a minimum time between them.
     // the note's duration + 30% seems to work well:
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
     // stop the tone playing:
-    noTone(8);
+    noTone(tonePin);
   }
     reset();
     

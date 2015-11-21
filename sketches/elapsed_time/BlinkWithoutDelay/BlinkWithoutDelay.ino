@@ -25,7 +25,7 @@
 // set pin numbers:
 int ledButton = 12;
 int ledBlocking = 13;
-int button = 2;
+int button = 8;
 int buttonState = 0;
 
 // Variables will change:

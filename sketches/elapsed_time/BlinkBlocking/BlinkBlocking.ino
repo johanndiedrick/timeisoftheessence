@@ -9,7 +9,7 @@
 // give it a name:
 int ledButton = 12;
 int ledBlocking = 13;
-int button = 2;
+int button = 8;
 int buttonState = 0;
 
 int delayTime = 1000;
