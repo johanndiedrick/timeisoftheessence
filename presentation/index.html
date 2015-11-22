@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Time Is Of The Essence</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/naked.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<aside class="notes">
+					</aside>
+					<h1>Time Is Of The Essence</h1>
+					<h3>Using Time in Interactive Art</h3>
+					<p>
+					<small><a href="http://johanndiedrick.com">Johann Diedrick</a> / <a href="http://twitter.com/jdiedrick">@jdiedrick</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Hello!</h2>
+					<p>
+					I'm Johann. Nice to meet you :)
+					</p>
+
+				</section>
+
+				<section>
+					<h2>And you are..?</h2>
+					<li class="fragment">What's your name</li>
+					<li class="fragment">Where are you from?</li>
+					<li class="fragment">What do you spend most of your time doing?</li>
+					<p class="fragment"><em>** BONUS **</em> What is your favorite dessert?</p>
+
+
+				</section>
+
+				<section>
+					<section>
+						<h2>Rules for Basic Human Decency</h2>
+					</section>
+					
+					<section>
+					<img height="600px" src="img/punk.jpg">
+					</section>
+
+					<section>
+					<p>Borrowed from <a href="http://blog.blprnt.com/">Jer Thorp</a>'s <a href="https://github.com/blprnt/dataart">Data Art</a> syllabus:</p>
+						<p>"I am 100% dedicated to a inclusive, harassment-free experience for everyone regardless of gender, race, sexual orientation, disability, appearance, or religion. I will not tolerate harassment of class participants in any form."</p>
+
+					</section>
+				</section>
+				<section>
+					<h2>Why are we all here?</h2>
+					<aside class="notes">
+					<p>Learn about arduino</p>
+					<p>Lean about using time in projects</p>
+					<p>Learn to do blink, pot, hbd</p>
+					</aside>
+
+				</section>
+
+				<section>
+					<section>
+					<h2>What will we be doing?</h2>
+						<li class="fragment">Some lecture</li>
+						<li class="fragment">Arduino basics</li>
+						<li class="fragment">Walkthrough of code examples</li>
+						<li class="fragment">Time to workshop ideas</li>
+						<li class="fragment">Presentation</li>
+
+					</section>
+				</section>
+
+				<section>
+					<h2>Time in Art</h2>
+					<aside class="notes">
+						Ask for answers, care out definition through examples
+					</aside>
+				</section>
+				
+				<section>
+					<section>
+					<h2>Photography</h2>
+					</section>
+					<section>
+					<p><em>The Horse In Motion</em>, Eadweard Muybridge, 1878</p>
+					</section>
+					<section>
+					<img height="600px" src="img/muybridge.jpg">
+					</section>
+					
+					<section>
+					<p><em>Woman Walking Downstairs</em>, Eadweard Muybridge, 1887</p>
+					</section>
+					<section>
+					<img height="600px" src="img/muybridge2.jpg">
+					</section>
+					
+					<section>
+					<p><em>Woman Waking Downstairs (animated)</em>, Eadweard Muybridge, 1887</p>
+					</section>
+					<section>
+					<img height="600px" src="img/muybridge3.gif">
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+					<h2>Painting</h2>
+					</section>
+					<section>
+					<p><em>Nude Descending a Staircase, No. 2</em>, Marcel Duchamp, 1912</p>
+					</section>
+					<section>
+					<img height="600px" src="img/duchamp.jpg">
+					</section>
+					<section>
+					<p><em> Marcel Duchamp Descending a Staircase</em>, Eliot Elisofon, 1952</p>
+					<a href="http://anthonylukephotography.blogspot.com/2011/05/artists-marcel-duchamps-masterpiece.html">Anthony Luke's Photography</a>
+					</section>
+					<section>
+					<img height="600px" src="img/duchamp2.jpg">
+					</section>
+
+					<section>
+						<h2>Sculpture</h2>
+					</section>
+					<section>
+					<p><em>Unique Forms of Continuity in Space</em>, Umberto Boccioni, 1913
+					</section>
+					<section>
+						<img height="600px" src="img/boccioni.jpg">
+					</section>
+
+				</section>
+				
+				<section>
+					<section>
+					<h2>Slitscanning</h2>
+					</section>
+					
+					<section>
+					<h2>References</h2>
+					<ul>
+						<li><a href="http://www.flong.com/texts/lists/slit_scan/">An Informal Catalogue of Slit-Scan Video Artworks and Research</a>
+						<li><a href="http://golancourses.net/2015/lectures/visualizing-time/">Visualizing Time</a></li>
+					</ul>
+					<p>Compiled by Golan Levin</p>
+					</section>
+
+					<section>
+					<h2>Photography</h2>
+					</section>
+					<section>
+					<p><em>Hammer thrower, U.S. track team Olympic tryouts</em>, George Silk , 1960 (© Time Inc.)</p>
+					</section>
+					<section>
+					<img height="600px" src="img/slitscan.jpg">
+					</section>
+					<section>
+					<h2>Video</h2>
+					</section>
+					<section>
+					<p><em>2001: A Space Odyssey, Stargate Sequence</em>, Douglas Trumbull, 1968
+					</section>
+					<section>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/ou6JNQwPWE0#t=1m06s" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+					<p><em>sickhands</em>, Petra Cortright, 2011
+					</section>
+					<section>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/Ogd2ItFJVJk" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+					<h2>Scupture</h2>
+					</section>
+					<section>
+					<p><em>Embrace In Progress</em>, Rosalin Yu, 2015</p>
+					<p><a href="http://www.embrace.rosalieyu.com/">Artist's website</a>
+					</section>
+					<section>
+					<iframe src="https://player.vimeo.com/video/126411134" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+					</section>
+					<section>
+					<p><em>Slitscan Sculpture</em>, Daito Manabe</p>
+					</section>
+					<section>
+					<img height="600px" src="img/daito.jpg">
+					</section>
+
+				</section>
+				
+				<section>
+					<section>
+					<h2>Sound</h2>
+					<p><em>Time Piece Beacon</em>, Max Neuhaus, 2005</p>
+					<p><a href="http://www.diaart.org/exhibitions/introduction/91">Dia Art Foundtion website</a>
+					</section>
+					<section>
+					<img height="600px" src="img/TimePieceBeacon.gif">
+					</section>
+				</section>
+
+				<section>
+				<section>
+				<h2>Video/Photography</h2>
+				<p><em>Kinograph</em>, Matthew Epler, 2013</p>
+				<br>
+				<a href="http://kinograph.cc/">Website</a>
+				</section>
+				<section>
+				<iframe src="https://player.vimeo.com/video/66781749" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Installation</h2>
+					<p><em>Time Delay Room</em>, Dan Graham, 1974</p>
+					<p><a href="http://www.medienkunstnetz.de/works/time-delay-room/images/13/">Media Art Net website</a>
+					</section>
+					<section>
+					<img height="600px" src="img/timedelayroom.jpg">
+					</section>
+					<section>
+					<iframe width="420" height="315" src="https://www.youtube.com/embed/FAY01JSfY-8" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+
+				
+				<section>
+					<section>
+					<h2>Interactive Art</h2>
+					</section>
+					<section>
+					<p><em>PomPom Mirror</em>, Danny Rozin, 2015</p>
+					<p><a href="http://www.bitforms.com/rozin/pompom-mirror">Bitforms</a>
+					<aside class="notes">
+					<p>Interaction at a distance</p>
+					<p>3 seconds, 3 minutes, 3 hours</p>
+					</aside>
+					</section>
+					<section>
+					<iframe src="https://player.vimeo.com/video/128375543" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+					</section>
+				</section>
+
+				<section>
+					<section>
+					<h2>Counting</h2>
+					<p><em>Pulse Machine</em>, Alicia Eggert, 2012</p>
+					<p><a href="http://www.aliciaeggert.com/work/pages/pulsemachine.html">Artist's website</a>
+					</section>
+					<section>
+					<iframe src="https://player.vimeo.com/video/43931679?color=ffffff&title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+					</section>
+				</section>
+				
+				<section>
+					<section>
+					<h2>Knight Rider</h2>
+					<p><a href="https://www.arduino.cc/en/Tutorial/KnightRider">Arduino Example</a></p>
+					</section>
+					<section>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/khD59VExpp0" frameborder="0" allowfullscreen></iframe>
+					</section>
+					<section>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4fjDWSFsv8o" frameborder="0" allowfullscreen></iframe>
+					</section>
+				</section>
+				
+				<section>
+					<h2>What is Interactive Art?</h2>
+					<aside class="notes">
+					<p>Non interactive art</p>
+					<p>Physical computing</p>
+					</aside>
+				</section>
+
+				<section>
+					<h2>Time-Based Examples</h2>
+				</section>
+
+				<section>
+					<section>
+						<h2>Delay</h2>
+					</section>
+					<section>
+						<p>delay()</p>
+						</p><a href="https://www.arduino.cc/en/Reference/Delay">Reference</a></p>
+					</section>
+					<section>
+						<p>Setting up your LED</p>
+						<img height="600px" src="img/blink.png">
+						</p>Image</p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2>Duration</h2>
+					</section>
+					<section>
+						<p>analogRead()</p>
+						</p><a href="https://www.arduino.cc/en/Reference/AnalogRead">Reference</a></p>
+						<p>Analog Input</p>
+						</p><a href="https://www.arduino.cc/en/Tutorial/AnalogInput">Reference</a></p>
+					</section>
+					<section>
+						<p>Setting up your potentiometer</p>
+						<img height="600px" src="img/duration.jpg">
+					</section>
+				</section>
+
+				
+				<section>
+					<section>
+						<h2>Repetition</h2>
+					</section>
+					<section>
+						<p>For loops</p>
+						</p><a href="https://www.arduino.cc/en/Reference/For">Reference</a></p>
+					</section>
+					<section>
+						<p>Knight Rider</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Counting/Resetting</h2>
+					</section>
+					<section>
+						<p>State Change Detection</p>
+						</p><a href="https://www.arduino.cc/en/Tutorial/StateChangeDetection?from=Tutorial.ButtonStateChange">Reference</a></p>
+					</section>
+					<section>
+						<p>Setting up your button</p>
+						<img height="600px" src="img/button.png">
+					</section>
+					<section>
+						<p>Setting up your speaker</p>
+						<img height="600px" src="img/tone.png">
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h2>Elapsed Time</h2>
+					</section>
+					<section>
+						<p>blink without delay()</p>
+						</p><a href="https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay">Reference</a></p>
+					</section>
+				</section>
+		<section>
+			<h2>More references</h2>
+			<a href="http://www.creativeapplications.net/">Creative Applications</a>
+			<br>
+			<a href="http://www.huffingtonpost.com/2013/12/31/time-art_n_4519734.html">Time in Art</a>
+			<br>
+			<a href="http://tinkersphere.com/">Tinkersphere</a>
+			
+		</section>
+		<section>
+			<h2>Feedback</h2>
+		</section>
+		<section>
+			<h2>Thanks!</h2>
+		</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
