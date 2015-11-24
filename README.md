@@ -3,7 +3,7 @@
 
 ![Time Is Of The Essence](http://reversespace.org/site/wp-content/uploads/2015/08/image-Intro-to-arduino1.jpg)
 
-[Presentation](http://jdiedrick.github.io/timeisoftheseesnce/presentation/#/)
+[Presentation](http://jdiedrick.github.io/timeisoftheessence/presentation/#/)
 
 The use of time is essential in any artistic practice. In this workshop, we will learn how to use time within the context of interactive art to create works with elements of tension, suspense and surprise. This workshop is meant to serve two-purposes: To explore interactive arts and the techniques used to manipulate time, including delay, repetition, duration, looping, and resetting. And, to learn about some of the technologies that serve as the foundation for interactive art. At the end of the workshop you will be able to start building your own tools and platforms.
 
